@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f353;
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+
+.contenedor {
+  font-style: black;
+  background-color: #fffdfd;
+  padding: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.input-contenedor {
+  text-align: center;
+  color: black;
+  padding: 3px;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.logo-femcal {
+  float: right;
+  size: 10%;
+  width: 85%;
+  height: 50%;
+
+}
+
+.iniciar {
+  background-color: #faf9f8; 
+  border-collapse: collapse;
+  outline: none;
+  color: grey;
+  font-size: 20px; 
+  cursor: pointer;
+  border: none; 
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
