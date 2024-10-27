@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Century Gothic', sans-serif;
   text-align: center;
   background-color: #f0f353;
   margin: 0;
@@ -13,40 +13,29 @@ body {
 }
 
 .contenedor {
-  font-style: black;
   background-color: #fffdfd;
-  padding: 15px;
+  padding: 20px;
   overflow: hidden;
   text-align: center;
 }
 
-.input-contenedor {
-  text-align: center;
-  color: black;
-  padding: 3px;
-  margin-top: 5px;
+.form-contenedor {
+  background-color:#f3f3f3;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  margin-top: 0 auto;
+  margin: 10px 0;
   display: inline-block;
   font-size: 18px;
   overflow: hidden;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .logo-femcal {
-  float: right;
-  size: 10%;
-  width: 85%;
-  height: 50%;
-
-}
-
-.iniciar {
-  background-color: #faf9f8; 
-  border-collapse: collapse;
-  outline: none;
-  color: grey;
-  font-size: 20px; 
-  cursor: pointer;
-  border: none; 
-  border-radius: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
+  float: center;
+  size: 5%;
+  width: 20%;
+  height: 20%;
 }
