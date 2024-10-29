@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="FEMCALproject.css" />
     <div class="contenedor">
         <h1>Te damos la bienvenida a </h1>
-        <img src="logo/logo-femcal (1).png">
+        <img src="logos/logo-femcal (1).png">
         <div class="logo-femcal"></div>
         </form>
     </div>
@@ -16,24 +17,26 @@
         <div class="formulario">
             <form action="#">
         </div>
-        <div class="form-contenedor">
-            <input type="email" required>
-            <label for="#">Correo electrónico</label>
+        <div class="form-contenedor" onsubmit="return validateForm()">
+            <input type="text" id="email" name="email">
+            <label for="email">Correo electrónico</label>
             <br>
-            <input type="password" required>
-            <label for="#">Contraseña</label> <br>
-        <br>
-                <input type="checkbox">
-                <a href="#">Olvidé la contraseña</a> <br>
-        
-        <br>
-        <button type="submit">Iniciar sesión <nav>
-                <div class="iniciar">
-                </div>
-            </nav></button>
-        </div>
-    </section>
+            <input type="password" id="password" name="password">
+            <label for="password">Contraseña</label> <br>
+            <br>
+            <input type="checkbox">
+            <a href="#">Olvidé la contraseña</a> <br>
 
+            <br>
+            <form action="/submit" method="post">
+                <button type="submit">Iniciar sesión <nav>
+                        <div class="iniciar">
+                        </div>
+                    </nav></button>
+        </div>
+        </form>
+    </section>
+ <script src="FEMCALproject.js"></script>
 </body>
 
 </html>

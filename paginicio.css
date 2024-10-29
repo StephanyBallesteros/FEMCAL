@@ -1,0 +1,95 @@
+html,body {
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    background-color: #fafaf8;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(204,204,204, .4);
+    border-radius: 5px 5px 10px 10px;
+}
+.header {
+    height: 80px;
+    width: 100%;
+    float: center;
+    overflow: hidden;
+
+}
+
+header,nav,section,footer {
+    border-radius: 10px;
+    padding:15px;
+    margin-top: 5px;
+    position: center;
+}
+.header img {
+    height: 100%;
+    display: flex;
+    float: center;
+    align-items: center;
+    margin-bottom: 100%;
+    position: center;
+
+}
+
+.fixed-image {
+    width: 20%;
+    height: 20%;
+    position: center;
+    padding: 0;
+}
+
+nav {
+    height: 500px;
+    width: 62%;
+    float: center;
+    border-radius: 20%;
+    font-stretch: extra-expanded;
+    text-align: center;
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    align-items: auto;
+    background-color: #f0f353;
+    padding: 10px;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    float: center;
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+}
+
+.footer img {
+    height: 80px;
+    width: auto;
+    position: center;
+}
+
+.header, footer, nav {
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 16px;
+}
